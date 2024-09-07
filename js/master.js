@@ -94,10 +94,6 @@ links.forEach((ele) => {
 //------------ Skills ------------//
 addEventListener("scroll", () => {
   let ourSkills = document.querySelector(".skills");
-  // ourSkills.offsetTop; // 1333 من بداية الصفحة لحد اول السكشن
-  // ourSkills.offsetHeight; // 587 ارتفاع السكشن نفسه
-  // window.innerHeight; // 855 ارتفاع الصفحة
-  // this.scrollY; // المكان اللي وصلتله بالسكرول (اعلي المؤشر)
   if (
     this.scrollY >=
     ourSkills.offsetTop + ourSkills.offsetHeight - window.innerHeight
